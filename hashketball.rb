@@ -2,7 +2,7 @@
 require 'pry'
 
 def game_hash
-  {
+  game_hash: {
     :home => {
       team_name: "Brooklyn Nets", 
       color: ["Black", "White"], 
@@ -34,9 +34,9 @@ def game_hash
           points: 17, 
           rebounds: 19, 
           assists: 10, 
-          steals => 3, 
-          blocks => 1, 
-          slam_dunks => 15},
+          steals: 3, 
+          blocks: 1, 
+          slam_dunks: 15},
         "Mason Plumlee" => {
           player_name: "Mason Plumlee", 
           number: 1, 
@@ -113,7 +113,7 @@ def game_hash
           assists: 12, 
           steals: 7, 
           blocks: 5, 
-          slam_dunks: 12 }
+          slam_dunks: 12}
         }
       }
     }
